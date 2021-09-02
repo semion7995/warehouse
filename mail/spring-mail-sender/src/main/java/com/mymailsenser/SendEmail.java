@@ -15,7 +15,7 @@ public class SendEmail {
         SimpleMailMessage msg = new SimpleMailMessage();
 
         msg.setFrom("devsemion@gmail.com");
-        msg.setTo("semaqwinnert@gmail.com");
+        msg.setTo("devsemion@gmail.com");
         msg.setSubject("First mail message");
         msg.setText("Hello world!!!");
 
