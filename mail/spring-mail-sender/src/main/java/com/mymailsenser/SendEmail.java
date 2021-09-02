@@ -12,11 +12,14 @@ public class SendEmail {
     private MailSender mailSender;
 
     public void sendMail(){
+
         SimpleMailMessage msg = new SimpleMailMessage();
+
 
         msg.setFrom("devsemion@gmail.com");
         msg.setTo("devsemion@gmail.com");
         msg.setSubject("First mail message");
+
         msg.setText("Hello world!!!");
 
         mailSender.send(msg);
